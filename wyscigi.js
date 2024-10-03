@@ -26,7 +26,7 @@ function kraje()
    
    /* Am. półn. */
    var pliki = "<img src=\"usa"+numer+".jpeg\" />";
-   var pliki2 = "<img src=\"can/"+numer+".jpeg\" />";
+   var pliki2 = "<img src=\"can"+numer+".jpeg\" />";
    
    
    /* Azja */
