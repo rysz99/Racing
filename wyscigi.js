@@ -14,7 +14,7 @@ function zegar()
   
   document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda+":"+milisekunda;  
   
-  setTimeout("zegar()",1000);
+  setTimeout("zegar()",1);
 }
 
 var numer = Math.floor(Math.random()*5)+1;
