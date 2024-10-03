@@ -14,7 +14,7 @@ function zegar()
   
   document.getElementById("zegar").innerHTML = godzina+":"+minuta+":"+sekunda+":"+milisekunda;  
   
-  setTimeout("zegar()",1);
+  setTimeout("zegar()",1000);
 }
 
 var numer = Math.floor(Math.random()*5)+1;
@@ -25,29 +25,29 @@ function kraje()
    
    
    /* Am. półn. */
-   var pliki = "<img src=\"../Grafika/USA/"+numer+".jpeg\" />";
-   var pliki2 = "<img src=\"../Grafika/Kanada/"+numer+".jpeg\" />";
+   var pliki = "<img src=\"usa"+numer+".jpeg\" />";
+   var pliki2 = "<img src=\"can/"+numer+".jpeg\" />";
    
    
    /* Azja */
-   var pliki7 = "<img src=\"../Grafika/Singapur/"+numer+".jpeg\" />";
-   var pliki8 = "<img src=\"../Grafika/Tajlandia/"+numer+".jpeg\" />";
+   var pliki7 = "<img src=\"sin"+numer+".jpeg\" />";
+   var pliki8 = "<img src=\"taj"+numer+".jpeg\" />";
    
    
    /* Am. poł. */
-   var pliki3 = "<img src=\"../Grafika/Chile/"+numer+".jpeg\" />";
-   var pliki4 = "<img src=\"../Grafika/Argentyna/"+numer+".jpeg\" />";
+   var pliki3 = "<img src=\"ch"+numer+".jpeg\" />";
+   var pliki4 = "<img src=\"arg"+numer+".jpeg\" />";
    
    /* Europa */
-   var pliki6 = "<img src=\"../Grafika/Hiszpania/"+numer+".jpeg\" />";
-   var pliki5 = "<img src=\"../Grafika/Monako/"+numer+".jpeg\" />";
+   var pliki6 = "<img src=\"spain"+numer+".jpeg\" />";
+   var pliki5 = "<img src=\"mon"+numer+".jpeg\" />";
    
    
    /* Afryka */
-   var pliki10 = "<img src=\"../Grafika/Senegal/"+numer+".jpeg\" />";
-   var pliki11 = "<img src=\"../Grafika/RPA/"+numer+".jpeg\" />";
+   var pliki10 = "<img src=\"sen"+numer+".jpeg\" />";
+   var pliki11 = "<img src=\"rpa"+numer+".jpeg\" />";
    
-   var pliki9 = "<img src=\"../Grafika/Australia/"+numer+".jpeg\" />";
+   var pliki9 = "<img src=\"aus"+numer+".jpeg\" />";
    
    
    document.getElementById("slajder1").innerHTML = pliki;
